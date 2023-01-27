@@ -186,6 +186,7 @@ def main():
  \___/     |_/ ~ By VoidTrauma                                                    
                    """
     print(art)
+    os.mkdir('data')
     abspath = os.path.abspath(__file__)
     dname = os.path.dirname(abspath)
     os.chdir(dname)
